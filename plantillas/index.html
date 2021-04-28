@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carga CSV</title>
+</head>
+<body>
+
+  <h1>Carga CSV</h1>
+
+  <form action="index.php?a=uploadcsv" method="post" enctype="multipart/form-data" id="import_form">
+    <div class="col-md-3">
+    <input type="file" name="file" />
+    </div>
+    <div class="col-md-5">
+    <input type="submit" class="btn btn-primary" name="import_data" value="Cargar">
+    </div>
+  </form>
+  
+</body>
+</html>
